@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // ✅ CORS FIRST
 app.use(cors({
-  origin: 'https://com-front-ivory.vercel.app'
+  origin: 'https://com-front-chi.vercel.app'
 }));
 
 // ✅ THEN body parser
